@@ -1,0 +1,18 @@
+{
+	"manifest_version": 2,
+	"name": "Notification Extention",
+	"description": "",
+	"version": "1.0",
+	"browser_action": {
+		"default_icon": "icon.png",
+		"default_popup": "toggle.html"
+	},
+	"permissions": [
+		"activeTab",
+		"background",
+		"notifications",
+		"webRequest",
+		"tabs"
+	],
+	"content_security_policy": "script-src 'self' https://cdnjs.cloudflare.com ; object-src 'self' "
+}
